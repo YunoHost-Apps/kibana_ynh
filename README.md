@@ -1,6 +1,8 @@
 # Kibana app for YunoHost
 Kibana Server
 
+# APP IN DEV NOT WORK
+
 **Shipped version:** 7.1.0
 
 - [Yunohost project](https://yunohost.org)
