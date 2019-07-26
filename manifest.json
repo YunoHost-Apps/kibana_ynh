@@ -1,12 +1,12 @@
 {
     "name": "Jellyfin",
-    "id": "jellyfin",
+    "id": "kibana",
     "packaging_format": 1,
     "description": {
         "en": "Jellyfin package for YunoHost.",
         "fr": "Jellyfin pour YunoHost."
     },
-    "version": "10.2.2",
+    "version": "7.2.0",
     "url": "https://github.com/jellyfin/jellyfin",
     "license": "GPL-2.0",
     "maintainer": {
