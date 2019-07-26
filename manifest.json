@@ -1,14 +1,14 @@
 {
-    "name": "Jellyfin",
+    "name": "Kibana",
     "id": "kibana",
     "packaging_format": 1,
     "description": {
-        "en": "Jellyfin package for YunoHost.",
-        "fr": "Jellyfin pour YunoHost."
+        "en": "Kibana package for YunoHost.",
+        "fr": "Kibana pour YunoHost."
     },
     "version": "7.2.0",
-    "url": "https://github.com/jellyfin/jellyfin",
-    "license": "GPL-2.0",
+    "url": "https://github.com/elastic/kibana",
+    "license": "Elastic License",
     "maintainer": {
         "name": "liberodark",
         "email": "liberodark@gmail.com"
@@ -27,8 +27,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for Jellyfin",
-                    "fr": "Choisissez un nom de domaine pour Jellyfin"
+                    "en": "Choose a domain name for Kibana",
+                    "fr": "Choisissez un nom de domaine pour Kibana"
                 },
                 "example": "example.com"
             },
@@ -37,11 +37,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Jellyfin /jelly is accepted",
-                    "fr": "Choisissez un chemin pour Jellyfin /jelly est accepté"
+                    "en": "Choose a path for Kibana /kibana is accepted",
+                    "fr": "Choisissez un chemin pour Kibana /kibana est accepté"
                 },
-                "example": "/jelly",
-                "default": "/jelly"
+                "example": "/",
+                "default": "/"
             },
             
             {
