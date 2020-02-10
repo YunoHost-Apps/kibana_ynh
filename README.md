@@ -3,7 +3,7 @@ Kibana Server
 
 # APP IN DEV NOT WORK
 
-**Shipped version:** 7.5.0
+**Shipped version:** 7.5.2
 
 - [Yunohost project](https://yunohost.org)
 - [Kibana website](https://www.elastic.co/fr/products/kibana)
