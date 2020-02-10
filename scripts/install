@@ -97,6 +97,20 @@ yunohost firewall allow --no-upnp TCP $port 2>&1
 ynh_app_setting_set $app port $port
 
 #=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+
+ynh_app_setting_set "$app" final_path "$final_path"
+# Download, check integrity, uncompress and patch the source from app.src
+ynh_setup_source "$final_path"
+
+#==============================================
+# INSTALL PLEX
+#==============================================
+
+dpkg --install "$final_path"/kibana.deb
+
+#=================================================
 # NGINX CONFIGURATION
 #=================================================
 
@@ -154,4 +168,5 @@ if [ $is_public -eq 1 ]; then
 fi
 
 # Reload services
+systemctl enable --now kibana
 systemctl reload nginx
